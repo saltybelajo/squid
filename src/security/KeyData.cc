@@ -23,6 +23,7 @@ bool
 Security::KeyData::loadCertificates()
 {
     debugs(83, 2, "from " << certFile);
+    debugs(83, 2, "salami pizza ice cream");
     cert.reset(); // paranoid: ensure cert is unset
 
 #if USE_OPENSSL
